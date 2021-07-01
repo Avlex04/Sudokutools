@@ -1,0 +1,56 @@
+.sudoku {
+    border: 3px solid black;
+    margin: auto;
+    width: 472px;
+    height: 472px;
+}
+
+.single_field {
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.third-column {
+    border-right-width: 3px;
+}
+
+.third-row {
+    border-bottom-width: 3px;
+}
+
+.entry-field {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    border: none;
+    padding: 5px;
+}
+
+.entry-field:focus {
+    outline: none;
+}
+.variable-content{
+    color: gray;
+    font-family:Shoolbell;
+    font-size: 39px;
+}
+.set-content {
+    background-color: white;
+    color: black;
+}
+.buttons {
+  color: deepskyblue;
+  padding: 10px 125px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.red-border{
+    border-color: red;
+}
